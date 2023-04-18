@@ -1,3 +1,14 @@
+import {
+  brakes,
+  autoElectrical,
+  inspection,
+  batteries,
+  wipers,
+  airConditioning,
+  lights,
+  genuineBoschParts
+} from '../assets';
+
 const testimonials = [
     {
       testimonial:
@@ -44,4 +55,39 @@ const testimonials = [
     },
   ];
 
-  export { testimonials, navLinks };
+  const services = [
+    {
+      title: "Brakes",
+      icon: brakes,
+    },
+    {
+      title: 'Auto Electrical',
+      icon: autoElectrical,
+    },
+    {
+      title: 'Inspection',
+      icon: inspection,
+    },
+    {
+      title: 'Batteries',
+      icon: batteries,
+    },
+    {
+      title: 'Wipers',
+      icon: wipers,
+    },
+    {
+      title: 'Air Conditioning',
+      icon: airConditioning,
+    },
+    {
+      title: 'Lights',
+      icon: lights,
+    },
+    {
+      title: 'Genuine Bosch Parts',
+      icon: genuineBoschParts,
+    }
+  ];
+
+  export { testimonials, navLinks, services };

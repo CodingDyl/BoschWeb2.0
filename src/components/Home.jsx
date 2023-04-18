@@ -7,9 +7,13 @@ const Home = () => {
     <section className="relative w-full h-screen mx-auto">
       <div className={`${styles.paddingX} absolute inset-0 top-[120px] max-w-7xl flex mx-auto flex-row items-start gap-5`}>
         <div>
-          <h1 className={`${styles.heroHeadText} text-white`}>Welcome to <span className="text-[#915eff]">Bosch Northcliff</span></h1>
-          <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            Your one stop auto shop.
+          <h1 className={`${styles.heroHeadText} text-white`}>Welcome to <span className="text-[#005691]">Bosch Northcliff</span></h1>
+          <div className="flex justify-start gap-3 w-full pt-4">
+            <button className='btn bg-tertiary py-3 px-8 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary'>Book a service</button>
+            <button className='btn bg-secondary py-3 px-8 rounded-xl outline-none w-fit text-primary font-bold shadow-md shadow-primary hover:opacity-100 !important'>Get a quote</button>
+          </div>
+          <p className={`${styles.heroSubText} mt-4 text-white-100`}>
+            Your one stop Auto Shop. Proud Member of Bosch Car Service.
           </p>
         </div>
 

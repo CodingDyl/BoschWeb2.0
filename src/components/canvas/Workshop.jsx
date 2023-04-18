@@ -13,9 +13,9 @@ const Workshop = ({isMobile}) => {
       <spotLight position={[-20, 50, 10]} angle={0.12} penumbra={1} intensity={1} castShadow shadow-mapSize={1024}/>
       <primitive
         object={car_service.scene}
-        scale={isMobile ? 0.1 : 0.25}
+        scale={isMobile ? 0.1 : 0.15}
         position={isMobile ? [0, -1, -5.2] : [0, -3.25, -5.5]}
-        rotation={[-0.01, -0.9, -0.1]}
+        rotation={[-0.001, -1, -0.1]}
       />
     </mesh>
   )

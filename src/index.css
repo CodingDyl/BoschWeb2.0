@@ -23,13 +23,13 @@
   background: #000000; /* fallback for old browsers */
   background: -webkit-linear-gradient(
     to right,
-    #434343,
-    #000000
+    #005691,
+    #003b6a
   ); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(
     to right,
-    #434343,
-    #000000
+    #005691,
+    #003b6a
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
@@ -124,6 +124,14 @@
   text-indent: -9999em;
   animation: mulShdSpin 1.1s infinite ease;
   transform: translateZ(0);
+}
+
+.btn {
+  cursor: pointer !important;
+}
+
+.btn:hover {
+  opacity: 100;
 }
 
 @keyframes mulShdSpin {
