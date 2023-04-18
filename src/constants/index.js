@@ -25,4 +25,23 @@ const testimonials = [
     },
   ];
 
-  export { testimonials };
+  const navLinks = [
+    {
+      title: "Home",
+      link: "/",
+    },
+    {
+      title: "About",
+      link: "/about",
+    },
+    {
+      title: "Services",
+      link: "/services",
+    },
+    {
+      title: "Contact",
+      link: "/contact",
+    },
+  ];
+
+  export { testimonials, navLinks };
