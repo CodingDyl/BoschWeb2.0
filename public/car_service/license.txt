@@ -1,0 +1,11 @@
+Model Information:
+* title:	Car Service
+* source:	https://sketchfab.com/3d-models/car-service-53d568db1a8b495a9fcc853af7a9470e
+* author:	Vladyslav Holhanov (https://sketchfab.com/vladicom08)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Car Service" (https://sketchfab.com/3d-models/car-service-53d568db1a8b495a9fcc853af7a9470e) by Vladyslav Holhanov (https://sketchfab.com/vladicom08) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
