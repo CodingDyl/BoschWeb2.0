@@ -6,11 +6,11 @@ import { styles } from '../styles';
 import { CarCanvas } from './canvas';
 import {SectionWrapper} from '../hoc';
 import { slideIn } from '../utils/motion';
+import CarCanvas2 from './canvas/CarCanvas2';
 
 const Contact = () => {
     const formRef = useRef();
     const [form, setForm] = useState({
-        name: '',
         email: '',
         contact: '',
         message: '',
@@ -36,11 +36,7 @@ const Contact = () => {
 
             <form ref={formRef} onSubmit={handleSubmit} className='mt-12 flex flex-col gap-8'>
                 <label className='flex flex-col'>
-                    <span className='text-white font-medium mb-4'>Your Name</span>
-                    <input type="text" name="name" value={form.name}className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium' onChange={handleChange} />
-                </label>
-                <label className='flex flex-col'>
-            <span className='text-white font-medium mb-4'>Your email</span>
+            <span className='text-white font-medium mb-4'>Your Email</span>
             <input
               type='email'
               name='email'
@@ -83,8 +79,10 @@ const Contact = () => {
         </motion.div>
 
         <motion.div variants={slideIn("right", "tween", 0.2, 1)} className='xl:flex-1 xl:h-auto md:h-[550px] h-[350px]' >
-            <CarCanvas />
+            <CarCanvas2 />
         </motion.div>
+
+        
     </div>
   )
 }
