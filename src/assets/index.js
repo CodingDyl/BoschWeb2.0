@@ -3,13 +3,13 @@ import close from "./close.svg";
 import logo from "./logo-bosch.svg";
 
 import carbg from "./carbg.png";
-import batteries from "./serviceIcons/batteries.svg";
-import autoElectrical from "./serviceIcons/autoElectrical.svg";
-import brakes from "./serviceIcons/brakes.svg";
-import inspection from "./serviceIcons/inspection.svg";
-import wipers from "./serviceIcons/wipers.svg";
-import airConditioning from "./serviceIcons/airConditioning.svg";
-import genuineBoschParts from "./serviceIcons/genuineBoschParts.svg";
-import lights from "./serviceIcons/lights.svg";
+import batteries from "./serviceIcons/batteries.png";
+import autoElectrical from "./serviceIcons/autoElectrical.png";
+import brakes from "./serviceIcons/brakes.png";
+import inspection from "./serviceIcons/inspection.png";
+import wipers from "./serviceIcons/wipers.png";
+import airConditioning from "./serviceIcons/airCOnditioning.png";
+import genuineBoschParts from "./serviceIcons/genuineBoschParts.png";
+import lights from "./serviceIcons/lights.png";
 
 export { menu, close, carbg, logo, batteries, autoElectrical, brakes, inspection, wipers, airConditioning, genuineBoschParts, lights };

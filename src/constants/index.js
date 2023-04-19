@@ -84,10 +84,6 @@ const testimonials = [
       title: 'Lights',
       icon: lights,
     },
-    {
-      title: 'Genuine Bosch Parts',
-      icon: genuineBoschParts,
-    }
   ];
 
   export { testimonials, navLinks, services };
