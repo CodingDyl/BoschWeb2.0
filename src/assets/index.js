@@ -12,4 +12,6 @@ import airConditioning from "./serviceIcons/airCOnditioning.png";
 import genuineBoschParts from "./serviceIcons/genuineBoschParts.png";
 import lights from "./serviceIcons/lights.png";
 
-export { menu, close, carbg, logo, batteries, autoElectrical, brakes, inspection, wipers, airConditioning, genuineBoschParts, lights };
+import rmi from "./rmimiwa.png";
+
+export { menu, close, carbg, logo, batteries, autoElectrical, brakes, inspection, wipers, airConditioning, genuineBoschParts, lights, rmi };

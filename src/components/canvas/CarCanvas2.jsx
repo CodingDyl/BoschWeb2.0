@@ -11,7 +11,7 @@ const Car = () => {
     <mesh>
         <hemisphereLight intensity={0.15} groundColor="black" />
       <pointLight intensity={2} />
-      <spotLight position={[-2, 500, 100]} angle={0.12} penumbra={1} intensity={1} castShadow shadow-mapSize={1024}/>
+      <spotLight position={[-3, 5000, 1000]} angle={0.12} penumbra={1} intensity={1} castShadow shadow-mapSize={1024}/>
       <primitive object={car.scene} scale={4.5} position-y={0} rotation-y={0} />
     </mesh>
     
