@@ -86,4 +86,17 @@ const testimonials = [
     },
   ];
 
-  export { testimonials, navLinks, services };
+  const serviceMe = [
+    {
+      title: "Booking",
+      btnTitle: "Make A Booking",
+      description: "Our car service booking process is unmatched in its simplicity, convenience, and reliability, making it the very best around. Whether you need to book a routine maintenance check-up, major repairs, or any other type of automotive service, our booking system will provide you with a hassle-free experience and a reliable ride."
+    },
+    {
+      title: "Quote",
+      btnTitle: "Get A Quote",
+      description: "Our prices for car services are unmatched in their affordability, transparency, and value, making them the very best around. Whether you need a routine check-up, major repairs, or any other type of automotive service, our prices will provide you with peace of mind and a reliable ride."
+    },
+  ];
+
+  export { testimonials, navLinks, services, serviceMe };
