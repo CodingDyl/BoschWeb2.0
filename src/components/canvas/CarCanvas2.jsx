@@ -26,10 +26,10 @@ const CarCanvas2 = () => {
       dpr={[1, 2]}
       gl={{ preserveDrawingBuffer: true }}
       camera={{
-        fov: 80,
+        fov: 65,
         near: 0.1,
-        far: 400,
-        position: [-8, 6, 20],
+        far: 1000,
+        position: [-4, 6, 20],
       }}
     >
       <Suspense fallback={<CanvasLoader />}>

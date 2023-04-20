@@ -19,6 +19,7 @@ export const theme = {
     },
     backgroundImage: {
       "car-pattern": "url('/src/assets/carbg.png')",
+      "service-pattern": "url('/src/assets/service.jpg')"
     },
   },
 };

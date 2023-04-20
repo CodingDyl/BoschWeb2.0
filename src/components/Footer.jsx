@@ -30,7 +30,7 @@ const Footer = () => {
         </motion.div>
     </div>
     <div className="mx-auto px-40 py-10 flex justify-center items-center w-full">
-        <h2 className={styles.sectionSubText}>@ 2023 Bosch Northcliff. Bosch Auto Workshop, South Africa. All Rights Reserved</h2>
+        <h4 className={styles.sectionSubText}>&copy;2023 Bosch Northcliff. Bosch Auto Workshop, South Africa. All Rights Reserved</h4>
     </div>
     </>
   )

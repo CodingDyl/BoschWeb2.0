@@ -5,6 +5,7 @@ import Home from './components/Home';
 import About from './components/About';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
+import Services from './components/Services';
 
 
 const App = () => {
@@ -18,6 +19,9 @@ const App = () => {
           <Home />
         </div>
         <About />
+        <div className="bg-service-pattern bg-cover bg-no-repeat bg-center opacity-80">
+        <Services />
+        </div>
         <Contact />
         <Footer />
       </div>

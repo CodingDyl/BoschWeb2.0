@@ -13,5 +13,6 @@ import genuineBoschParts from "./serviceIcons/genuineBoschParts.png";
 import lights from "./serviceIcons/lights.png";
 
 import rmi from "./rmimiwa.png";
+import service from "./service.jpg";
 
-export { menu, close, carbg, logo, batteries, autoElectrical, brakes, inspection, wipers, airConditioning, genuineBoschParts, lights, rmi };
+export { menu, close, carbg, logo, batteries, autoElectrical, brakes, inspection, wipers, airConditioning, genuineBoschParts, lights, rmi, service };
