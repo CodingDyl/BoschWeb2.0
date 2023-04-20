@@ -29,7 +29,7 @@ const Footer = () => {
             <img src={rmi} alt="logo" />
         </motion.div>
     </div>
-    <div className="mx-auto px-40 py-10 flex justify-center items-center w-full">
+    <div className="mx-auto px-40 py-10 flex justify-center items-center w-full xs:text-[9px]">
         <h4 className={styles.sectionSubText}>&copy;2023 Bosch Northcliff. Bosch Auto Workshop, South Africa. All Rights Reserved</h4>
     </div>
     </>

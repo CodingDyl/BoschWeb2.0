@@ -39,9 +39,9 @@ const Services = () => {
 
 
   return (
-    <section className="relative w-full h-screen mx-auto backdrop-blur-md">
+    <section className="w-full h-screen mx-auto backdrop-blur-md" id={`services`}>
         <div className={`${styles.paddingX} ${styles.paddingY} mx-auto flex flex-col justify-center items-center gap-5`}>
-            <h2 className={`${styles.heroHeadText}`}>Is Your Car Due For It's Service?</h2>
+            <h2 className={`${styles.heroHeadText} text-center`}>Is Your Car Due For It's Service?</h2>
             <p className={`${styles.heroSubText} text-white text-center`}>
             At Northcliff Auto we service all vehicle makes and models. Our team of dedicated mechanics constantly strive to ensure your vehicle is effectively serviced, repaired and maintained so that it’s driving at its best. Our state of the art diagnostic equipment is designed to diagnose a problem quickly and efficiently to avoid problems turning into major expenses.
             </p>
