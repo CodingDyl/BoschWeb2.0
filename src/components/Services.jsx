@@ -20,14 +20,14 @@ const Services = () => {
                 scale: 1,
                 speed: 450,
               }}
-              className='bg-primary rounded-[20px] py-5 px-12 min-h-[350px] w-[300px] flex justify-evenly items-center flex-col'
+              className='bg-primary rounded-[20px] py-5 px-12 min-h-[350px] w-[300px] flex justify-evenly items-center flex-col sm:py-0 sm:min-h-[200px]'
             >
     
               <h3 className='text-secondary text-[20px] font-bold text-center'>
                 {title}
               </h3>
 
-              <p className="text-secondary text-[12px] font-normal text-center">{description}</p>
+              <p className="text-secondary text-[12px] font-normal text-center sm:hidden">{description}</p>
 
               <button className='btn bg-white py-3 px-8 rounded-xl outline-none w-fit text-primary font-bold shadow-md shadow-primary'>{btnTitle}</button>
 
