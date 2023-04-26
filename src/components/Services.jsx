@@ -1,14 +1,22 @@
-import React from 'react';
+import React, {useState} from 'react';
 import { motion } from 'framer-motion';
 import { SectionWrapper } from '../hoc';
 import { styles } from '../styles';
 import { serviceMe } from '../constants';
 import { Tilt } from 'react-tilt';
 import { fadeIn } from '../utils/motion';
+import { Link } from 'react-router-dom';
+import Booking from './booking/Booking';
 
 const Services = () => {
+  const [open, setOpen] = useState(false);
+
+  const handleBooking = () => {
+    setOpen(!open);
+  };
 
     const ServiceCard = ({ index, title, description, btnTitle }) => (
+      <>
         <Tilt className='xs:w-[303px] w-full'>
           <motion.div
             variants={fadeIn("right", "spring", index * 0.5, 0.75)}
@@ -20,26 +28,31 @@ const Services = () => {
                 scale: 1,
                 speed: 450,
               }}
-              className='bg-primary rounded-[20px] py-5 px-12 min-h-[350px] w-[300px] flex justify-evenly items-center flex-col sm:py-0 sm:min-h-[200px]'
+              className='bg-primary rounded-[20px] py-5 px-12 min-h-[350px] w-[300px] flex justify-evenly items-center flex-col'
             >
     
               <h3 className='text-secondary text-[20px] font-bold text-center'>
                 {title}
               </h3>
 
-              <p className="text-secondary text-[12px] font-normal text-center sm:hidden">{description}</p>
+              <p className="text-secondary text-[12px] font-normal text-center ">{description}</p>
 
-              <button className='btn bg-white py-3 px-8 rounded-xl outline-none w-fit text-primary font-bold shadow-md shadow-primary'>{btnTitle}</button>
-
+              {title === 'Booking' ? (
+                    <button className='btn bg-white py-3 px-8 rounded-xl outline-none w-fit text-primary font-bold shadow-md shadow-primary' onClick={handleBooking}>{btnTitle}</button>
+                ) : (
+                  <button className='btn bg-white py-3 px-8 rounded-xl outline-none w-fit text-primary font-bold shadow-md shadow-primary'>{btnTitle}</button>
+                )}
 
             </div>
           </motion.div>
         </Tilt>
+        <Booking open={open} close={() => setOpen(false)}/>
+      </>
       );
 
 
   return (
-    <section className="w-full h-screen mx-auto backdrop-blur-md" id={`services`}>
+    <section className="w-full h-screen mx-auto backdrop-blur-md">
         <div className={`${styles.paddingX} ${styles.paddingY} mx-auto flex flex-col justify-center items-center gap-5`}>
             <h2 className={`${styles.heroHeadText} text-center`}>Is Your Car Due For It's Service?</h2>
             <p className={`${styles.heroSubText} text-white text-center`}>
