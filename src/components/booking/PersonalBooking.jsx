@@ -8,11 +8,11 @@ function PersonalBooking() {
     //Can use to populate with data from database
     const form = useForm({
         initialValues: {
-          firstName: 'Jane',
-          lastName: 'Doe',
-          email: 'email@email.com',
-          phone: '072-456-7890',
-          address: '123 Main St',
+          firstName: '',
+          lastName: '',
+          email: '',
+          phone: '',
+          address: '',
         },
     
         transformValues: (values) => ({

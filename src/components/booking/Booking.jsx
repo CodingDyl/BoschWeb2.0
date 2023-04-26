@@ -9,6 +9,7 @@ import DialogContentText from "@mui/material/DialogContentText";
 import DialogTitle from "@mui/material/DialogTitle";
 import PersonalBooking from "./PersonalBooking";
 import ServiceBooking from "./ServiceBooking";
+import CompleteBooking from "./CompleteBooking";
 
 const steps = [
   "Enter in your peronal Details",
@@ -34,7 +35,7 @@ function Booking({ open, close }) {
             <ServiceBooking />
           </Stepper.Step>
           <Stepper.Step label="Final step" description="Complete Booking">
-            Step 3 content: Complete Booking
+            <CompleteBooking />
           </Stepper.Step>
           <Stepper.Completed>
             Completed, click back button to get to previous step

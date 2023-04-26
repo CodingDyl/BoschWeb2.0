@@ -31,10 +31,10 @@ function LoginModal({opened, close}) {
     },
   });
   return (
-    <Modal opened={opened} onClose={close} title="Authentication" styles={{ body: {backgroundColor: '#003b6a'}, header: {backgroundColor: '#003b6a', color: 'white'}}} >
+    <Modal opened={opened} onClose={close} title="Authentication" styles={{ body: {backgroundColor: '#151030'}, header: {backgroundColor: '#151030', color: 'white'}}} >
     <Paper radius="md" p="xl" withBorder >
       <Text size="lg" weight={500}>
-        Welcome to Mantine, {type} with
+        Welcome to Bosch NC, {type} with
       </Text>
 
       <Group grow mb="md" mt="md">
